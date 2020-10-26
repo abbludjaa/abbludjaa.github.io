@@ -4,15 +4,13 @@
     text-decoration: none;
     background:none;
     color: white;
-
 }
-
 
 #navbar {
     background-color: #1F2124;
     position: fixed; 
     left: 0px;
-    right: 1000px;
+    right: 80%;
     bottom: 0px;
     top: 0px;
   }
@@ -26,6 +24,7 @@
     padding-top: 0px;
     margin: 10px;
     color: white;
+    letter-spacing: -3.2px;
     
   
 }
@@ -33,6 +32,7 @@
 #L {
     margin-top: -30px;
     font-size: 20px;
+    letter-spacing: 0px;
     
     
 }
@@ -49,6 +49,7 @@
 
 a{
     color: rgba(255, 255, 255, 0.404);
+    letter-spacing: 3px;
 }
 
 a:hover{
@@ -96,7 +97,22 @@ a:hover{
     color: white;
 }
 
-img {
+#bild {
+  position: fixed;
   height: 600px;
-  width: 100%;
+  width: 80%;
+  right: 0px;
+  top: 0px;
+  background-color: red;
+  margin: auto;
+} 
+
+#text {
+    position: fixed;
+    text-align: center;
+    background-color: blue;
+    margin: 3px;
+    padding: 5px;
+    width: 40%;
+    height: 200px;
 }
