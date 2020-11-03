@@ -2,8 +2,12 @@
     margin: 0;
     padding: 0;
     text-decoration: none;
-    background:none;
+    background-color:#1F2124;
     color: white;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    -webkit-user-drag: none; /* Prevents dragging of images/divs etc */
 }
 
 #navbar {
@@ -13,6 +17,8 @@
     right: 1000px;
     bottom: 0px;
     top: 0px;
+    width: 20%;
+    
   }
 
 #logo {
@@ -40,6 +46,7 @@
 #meny{
     padding: 0px;
     margin: 20px;
+    width: fit-content;
     display: flex;
     font-family: 'Permanent Marker';
     flex-direction: column;
@@ -98,6 +105,88 @@ a:hover{
 }
 
 img {
-  height: 600px;
-  width: 100%;
-}
+    height: 600px;
+    width: 100%;
+  }
+  
+  #bild {
+      position: fixed;
+      height: 600px;
+      width: 80%;
+      right: 0px;
+      top: 0px;
+      
+      margin: auto;
+      
+      
+      height: 100%;
+  }
+  
+  #res {
+      position: absolute;
+      text-decoration: none;
+      background-color: #1F2124; 
+      width: 900px;
+      height: fit-content;
+      min-height: 90%;
+      right: 5%;
+      border-style: solid;
+      border-width: 5px;
+      border-color: black;
+      scroll-behavior: smooth;
+      padding-top: 5px;
+      padding-left: 5px;
+      padding-bottom: 5px;
+      margin: 10px;
+    }
+
+
+    .countup {
+        position: absolute;
+        text-align: right;
+        margin-bottom: 20px;
+        right: 5px;
+        top: 5px;
+      }
+      .countup .timeel {
+        display: inline-block;
+        padding: 10px;
+        background: #151515;
+        margin: 0;
+        color: white;
+        min-width: 2.6rem;
+        margin-left: 13px;
+        border-radius: 10px 0 0 10px;
+      }
+      .countup span[class*="timeRef"] {
+        border-radius: 0 10px 10px 0;
+        margin-left: 0;
+        background: #e8c152;
+        color: black;
+      }
+
+      .countup1 {
+        position: absolute;
+        text-align: right;
+        margin-bottom: 20px;
+        right: 5px;
+        top: 60px;
+        
+      }
+
+      .countup1 .timeel1 {
+        display: inline-block;
+        padding: 10px;
+        background: #151515;
+        margin: 0;
+        color: white;
+        min-width: 2.6rem;
+        margin-left: 13px;
+        border-radius: 10px 0 0 10px;
+      }
+      .countup1 span[class*="timeRef"] {
+        border-radius: 0 10px 10px 0;
+        margin-left: 0;
+        background: #e8c152;
+        color: black;
+      }
